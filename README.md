@@ -8,3 +8,4 @@ List of changes/commits
 4. Initial html formatting of main page with CSS; added first version of dropdown menu
 5. Addition of custom graphs from python-api project; added initial bootstrap code for later implementation of navigation functions
 6. Integrated datasource into page layout of index
+7. Added navigable previews of charts to index

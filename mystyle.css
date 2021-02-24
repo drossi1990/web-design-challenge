@@ -14,7 +14,11 @@ body {
     margin-left:12px;
     font:Helvetica
   }
-
+  em {
+    color: navy;
+    font-size: 24px;
+    font:Helvetica
+  }
   figcaption {
     color: navy;
     font-size: 32px;
@@ -63,6 +67,7 @@ body {
     display: block;
   }
   
+  
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd;}
   
@@ -71,3 +76,25 @@ body {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#image-area {
+    width: 100%;
+    padding: 30px 30px 43px;
+    margin-top: 32px;
+
+}
+
+.image-photo {
+  width: 180px;
+
+  /* Box-model */
+  height: 180px;
+
+
+}#images {
+
+  padding-top: 15px;
+
+  /* Typography */
+  text-align: center;
+}
