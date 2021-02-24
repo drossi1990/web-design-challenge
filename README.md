@@ -11,3 +11,6 @@ List of changes/commits
 7. Added navigable previews of charts to index
 8. Added functional comparisons page
 9. Added chart pages and descriptions, tweaked formatting, added comments
+10. Removed old file
+11. Changed landing page name to index.html for gitpages functionality
+12. removed old index file
