@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Global Weather vs. Latitude</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar bg-light">
+        <a class="navbar-brand" href="weather_landing.html">Global Weather vs. Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="weather_landing.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="weatherdata.html">Data</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="weathercomparison.html">Weather Comparison</a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button class="dropbtn">Comparisons</button>
+            <div class="dropdown-content">
+              <a href="temperature.html">Temperature</a>
+              <a href="humidity.html">Humidity</a>
+              <a href="cloudiness.html">Cloudiness</a>
+              <a href="windspeed.html">Wind Speed</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+    
+    <div class=row>
+        <div class="column">
+          <h1 class="description-header">Table Comparison</h1>
+          <hr class="description-hr"/>
+          <p class="description-text"></p>
+        <div class="row">
+          <div class="column-md-6">
+            <figure>
+            <a href="temperature.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="image-photo-comp"></a>
+            </a>
+            <figcaption><em>Latitude v. Temperature</em></figcaption>
+          </figure>
+          </div>
+          <div class="column-md-6">
+            <figure>
+            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" class="image-photo-comp"></a>
+            </a>
+            <figcaption><em>Latitude v. Humidity</em></figcaption>
+          </figure>
+          </div>
+        </div>
+        <div class="row">
+            <div class="column-md-6">
+              <figure>
+              <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="image-photo-comp"></a>
+              </a>
+              <figcaption><em>Latitude v. Cloudiness</em></figcaption>
+            </figure>
+            </div>
+            <div class="column-md-6">
+              <figure>
+              <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="image-photo-comp"></a>
+              </a>
+              <figcaption><em>Latitude v. Wind Speed</em></figcaption>
+            </figure>
+            </div>
+          </div> 
+
+    <style>
+      .container {
+          background-color: #EBEBEB;
+      }
+    </style>
+
+</body>
+
+</html>

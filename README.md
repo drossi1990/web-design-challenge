@@ -9,3 +9,4 @@ List of changes/commits
 5. Addition of custom graphs from python-api project; added initial bootstrap code for later implementation of navigation functions
 6. Integrated datasource into page layout of index
 7. Added navigable previews of charts to index
+8. Added functional comparisons page
