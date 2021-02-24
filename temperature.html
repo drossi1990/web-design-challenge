@@ -3,14 +3,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <head>
+  <!-- Pagename, stylesheet -->
   <meta charset="UTF-8">
   <title>Global Weather vs. Latitude</title>
   <link rel="stylesheet" href="mystyle.css">
 </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Global Weather vs. Latitude</a>
+    <!-- Creating the navbar -->
+    <nav class="navbar navbar-expand-lg navbar bg-light">
+        <a class="navbar-brand" href="weather_landing.html">Global Weather vs. Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,8 +29,9 @@
                 <a class="nav-link" href="weathercomparison.html">Weather Comparison</a>
             </li>
           </ul>
+          <!-- Dropdown menu -->
           <div class="dropdown">
-            <button class="dropbtn">Comparisons</button>
+            <button class="dropbtn">Charts</button>
             <div class="dropdown-content">
               <a href="temperature.html">Temperature</a>
               <a href="humidity.html">Humidity</a>
@@ -39,35 +42,56 @@
         </div>
       </nav>
   <section>
-    <p>This webpage illustrates the relationship between different weather metrics versus distance to the equator. Data were gathered from a randomly generated list of cities from both the northern and southern hemispheres, with weather stats from each location being provided by <a href="url">https://openweathermap.org</a> </p>
-    <figure>
-    <a target="_blank" href="Resources/assets/images/Fig3.png">
-      <img src="Resources/assets/images/Fig3.png" alt="Cloudiness">
-    </a>
-    <figcaption><em>Cloudiness Map</em></figcaption>
-    </figure>
-    <hr>
-    <figure>
-    <a target="_blank" href="Resources/assets/images/Fig2.png">
-    <img src="Resources/assets/images/Fig2.png" alt="Humidity Map">
-    </a>
-    <figcaption><em>Humidity Map</em></figcaption>
-    </figure>
-    <hr>
-    <figure>
-      <a href="Resources/assets/images/Fig1.png">
-      <img target="_blank" src="Resources/assets/images/Fig1.png" alt="Temperature Map">
-      </a>
-      <figcaption><em>Temperature Map</em></figcaption>
-    </figure>
-    <hr>
-    <!-- an example using figure/ficaption -->
-    <figure>
-      <a target="_blank" href="Resources/assets/images/Fig4.png">
-      <img src="Resources/assets/images/Fig4.png" alt="Wind Map">
-      </a>
-      <figcaption><em>Wind Map</em></figcaption>
-    </figure>
+        <!-- Defining body content of page  -->
+
+    <div class="container">
+      <article class="description-content row">
+        <div class="col-md-8">
+          <h1 class="description-header">Latitude vs. Temperature</h1>
+          <hr class="description-hr"/>
+          <p class="description-text"></p>
+          <p>Comparing latitude to temperature reveals two interesting trends.</p>
+          <p>First, it is clear that temperatures trend upwards towards the equator, and downwards towards the upper latitudes.</p>
+          <p>Second, while you might expect the left arm of the graph to complete a "U" shape towards the lower latitudes, the lack of habitable land in the geographic south has created a hole in the data.</p>
+          <figure>
+          <a href="Resources/assets/images/Fig1.png">
+          <img src="Resources/assets/images/Fig1.png" alt="" id="pageimage"/>
+          </a>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <section id="image-area">
+            <div class="image-content">
+              <h1 class="image-header">Charts</h1>
+              <hr />
+              <div class="row">
+                <div class="column-2">
+                  <h2>Temperature</h2>
+                  <a href="temperature.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="image-photo"></a>
+                  </div>
+                <div class="column-2"></div>
+                <h2>Humidity</h2>
+                  <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" class="image-photo"></a>
+                  </div>
+              <div class="row">
+                <div class="column-2">
+                  <h2>Cloudiness</h2>
+                  <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="image-photo"></a>
+                </div>
+                <div class="column-2"></div>
+                  <h2>Humidity</h2>
+                  <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="image-photo"></a>
+                    </div>
+              </div>
+            </div>
+          </section>
+          </div>
+    </div>
+    <style>
+      .container {
+          background-color: #EBEBEB;
+      }
+    </style>
   </section>
 </body>
 

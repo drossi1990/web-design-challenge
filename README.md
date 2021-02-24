@@ -10,3 +10,4 @@ List of changes/commits
 6. Integrated datasource into page layout of index
 7. Added navigable previews of charts to index
 8. Added functional comparisons page
+9. Added chart pages and descriptions, tweaked formatting, added comments

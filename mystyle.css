@@ -1,28 +1,69 @@
 body {
     background-color: rgb(216, 216, 216);
   }
-  
+/* Text formatting */
   h1 {
     color: navy;
-    margin-left: 25px;
+    margin-left: 12px;
     font:Helvetica
   }
-
+  h2 {
+    color: navy;
+    margin-left: 25px;
+    font-size: medium;
+    font:Helvetica
+  }
   p {
     color: navy;
     font-size: 16px;
     margin-left:12px;
     font:Helvetica
   }
-  em {
+
+  #p2 {
     color: navy;
-    font-size: 24px;
+    font-size: 32px;
+    margin-left:12px;
     font:Helvetica
   }
+/* Formatting example thumbnail from landing page */
+  #exampleimage {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 444px;
+    height: 333px;
+  }
+
+  #pageimage {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 650px;
+    height: 450px;
+  }
+/* Figure formatting */
+  em {
+    color: navy;
+    font-size: 20px;
+    margin-left: 24px;
+    margin-top: 24px;
+    font:Helvetica
+  }
+
+  .figure {
+      height: 10px;
+      width: 100%;
+    }
+  }
+
   figcaption {
     color: navy;
     font-size: 32px;
     margin-left:40px;
+    margin-top:32px;
   }
 
   body
@@ -49,7 +90,7 @@ body {
     margin-right: 5px;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Dropdown Content */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -88,7 +129,6 @@ body {
 .image-photo {
   width: 200px;
 
-  /* Box-model */
   height: 200px;
 
 
@@ -96,10 +136,10 @@ body {
 
   padding-top: 15px;
 
-  /* Typography */
   text-align: center;
 }
 
+/* Grid formatting for comparisons */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +156,3 @@ body {
   
 
 
-/* Responsive layout - makes a two col
-
-/* Create four equal columns that sits next to each other */
